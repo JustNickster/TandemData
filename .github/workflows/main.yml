@@ -22,4 +22,9 @@ jobs:
           curl -X POST "https://:b8LcSuDySsKrnD9fa94UaA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:tqNqZ0YlQFuz8rs_GVtn6A/streams/AQAAAJwG_QThZ0TqpKt7c2X7FzYAAAAA" \
               -H "Content-Type: application/json" \
               -d @stream.json
+       - name: Send JSON Data to Third URL
+        run: |
+          curl -X POST "https://:wA9gngtbQpShN7yYB4E15g@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:tqNqZ0YlQFuz8rs_GVtn6A/streams/AQAAALhodHgR0E1cjoBMvXBaYcUAAAAA" \
+              -H "Content-Type: application/json" \
+              -d @stream.json         
 
