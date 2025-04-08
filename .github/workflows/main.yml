@@ -27,5 +27,6 @@ jobs:
         run: |
           curl -X POST "https://:wA9gngtbQpShN7yYB4E15g@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:tqNqZ0YlQFuz8rs_GVtn6A/streams/AQAAALhodHgR0E1cjoBMvXBaYcUAAAAA" \
                -H "Content-Type: application/json" \
-               -d @stream.json         
+               -d @stream.json
+  |
 
